@@ -1,0 +1,162 @@
+html {
+ box-sizing: border-box;
+ margin: 20px;   
+ padding: 20px;
+ 
+
+}
+
+
+/*le titre */
+.header {
+   display : flex;
+   justify-content: space-around;
+   align-items: center;
+   border: 1px solid blue;
+   padding: 30px 0;   
+   background-image: url(image/le\ monde.png);
+
+}
+
+.recherche {
+    color: rgb(250, 6, 6);
+    cursor: pointer;
+}
+.recherche:hover {
+    color: white;
+    background: rgb(3, 9, 36);
+}
+.bouton {
+    width: 500px;
+}
+
+
+/*partie titre*/
+.titre {
+   color: rgb(248, 3, 3);
+   font-size: 50px;
+   text-decoration: underline;
+   
+}
+
+/* partie navigation*/
+.navi {
+  border: 1px solid blue;
+ } 
+/* partie navigation*/
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: warp;
+  list-style-type:none;
+  background-color: white;
+  padding: 20px;
+}
+/* partie navigation*/
+.navi_link {
+  border-radius: 10px;
+  text-decoration : none;
+}
+/* partie navigation*/  
+a {
+  padding: 5px;
+  margin: 5px;
+}
+.navigation a:hover {
+  background-color: rgb(236, 8, 8);
+  color: white;
+} 
+
+/* partie contenu */
+main {
+   display: flex; 
+   justify-content: space-around; 
+   flex-wrap: wrap;
+}
+
+/*tableau*/
+table{
+  border-collapse: collapse;
+}
+
+th, td{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.main_saison  {
+  
+}
+
+.main_pilote  {
+  
+}
+
+.main_ecurie {
+  
+}
+
+
+.footer {
+  border: 1px solid blue;
+  background-image: url(image/le\ monde.png);
+  text-align: center;
+  color: red;
+  font-size: 10px;
+
+    
+}
+
+/* design reponsive */
+@media (max-width: 1600px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        
+    }
+    .navigation {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .bouton {
+      width: 600px
+    }
+    
+    .titre {
+        color: red;
+        font-size: 45px;
+         
+     }   
+}
+
+/* design reponsive */
+@media (max-width: 1400px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    
+}
+.navigation {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.bouton {
+  width: 400px
+}
+
+.titre {
+    color: red;
+    font-size: 45px;
+
+
+}
+
+  
+       
+
