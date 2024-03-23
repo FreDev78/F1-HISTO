@@ -50,7 +50,7 @@ html {
   flex-wrap: warp;
   list-style-type:none;
   background-color: white;
-  padding: 20px;
+  padding: 15px;
 }
 /* partie navigation*/
 .navi_link {
@@ -102,7 +102,8 @@ th, td{
   background-image: url(image/le\ monde.png);
   text-align: center;
   color: red;
-  font-size: 10px;
+  font-size: 15px;
+  height: 30px;
 
     
 }
